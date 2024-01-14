@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Simple Exam!</title>
+</head>
+<body>
+    <!-- start button -->
+    <div class="start_btn">
+         <button id="start" class="start">Start Quiz</button>
+     </div>
+     <!-- instructions -->
+    <div id="info_box" class="info_box">
+        <div class="info_title">
+            <span>Rules of the quiz: </span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. you have <span>15 seconds</span> to answer each question!</div>
+            <div class="info">2. Cheating is wrong, don't open google please!</div>
+            <div class="info">3. Answer questions by your knowledge.</div>
+            <div class="info">4. You cant select multiple questions.</div>
+            <div class="info">5. Once you start the quiz, you cant stop!</div>
+        </div>
+        <div class="buttons">
+            <button class="end">End Quiz</button>
+            <button class="restart">Continue</button>
+        </div>  
+    </div>
+    <!-- questions -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Mustafa life Quiz</div>
+            <div class="timer">
+                <div class="time_text">Time left</div>
+                <div class="time_sec">15</div>
+            </div>
+        </header>
+        <!-- 1 -->
+        <section id="1">
+            <div class="que_text">
+                <span>What is Mustafa's best hobby?</span>
+            </div>
+            <div class="options_list">
+                <div class="option">
+                    <span>Programming</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+                <div class="option tick">
+                    <span>Football</span>
+                    <div class="tick"><i class="fa-regular fa-circle-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>Swimming</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+                <div class="option">
+                    <span>Gym</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+                <div class="timer_line"></div>
+            </div>
+        </section>
+        <!-- 2 -->
+        <section id="2">
+            <div class="que_text">
+                <span>What would Mustafa prefer?</span>
+            </div>
+            <div class="options_list">
+                <div class="option">
+                    <span>Playing video games with friends</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+                <div class="option">
+                    <span>Hanging out with friends</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+                <div class="option tick">
+                    <span>Chat with friends</span>
+                    <div class="tick"><i class="fa-regular fa-circle-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>Sit alone</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+            </div>
+        </section>
+        <!-- 3 -->
+        <section id="3">
+            <div class="que_text">
+                <span>What is Mustafa's father name?</span>
+            </div>
+            <div class="options_list">
+                <div class="option">
+                    <span>Hasan</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+                <div class="option tick">
+                    <span>Nasser</span>
+                    <div class="tick"><i class="fa-regular fa-circle-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>Nedal</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+                <div class="option">
+                    <span>Basem</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+            </div>
+        </section>
+        <!-- 4 -->
+        <section id="4">
+            <div class="que_text">
+                <span>What is Mustafa's prefered food?</span>
+            </div>
+            <div class="options_list">
+                <div class="option">
+                    <span>Burgers</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+                <div class="option">
+                    <span>Pizza</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+                <div class="option">
+                    <span>Fried Chicken</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+                <div class="option tick">
+                    <span>Shawerma</span>
+                    <div class="tick"><i class="fa-regular fa-circle-check"></i></div>
+                </div>
+            </div>
+        </section>
+        <!-- 5 -->
+        <section id="5">
+            <div class="que_text">
+                <span>What do Mustafa fear of the most?</span>
+            </div>
+            <div class="options_list">
+                <div class="option">
+                    <span>Failure</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+                <div class="option">
+                    <span>Death</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+                <div class="option tick">
+                    <span>Autophobia (Lonliness)</span>
+                    <div class="tick"><i class="fa-regular fa-circle-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>Acrophobia (Heights)</span>
+                    <div class="wrong"><i class="fa-regular fa-circle-xmark"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_qu">
+                <span><p>1</p>Of<p>5</p>Questions</span>
+            </div>
+            <button class="next">Next</button>
+        </footer>
+    </div>
+    <!-- results -->
+    <div class="results">
+        <div class="complete_text">
+            <i class="fa-solid fa-heart"></i>
+            <span>No matter what is the result, i'm happy you played my quiz.</span>
+        </div>
+       
+        <div class="score">
+            <span>you got <p>1</p>out of <p>5</p></span>
+        </div>
+        <div class="buttons">
+            <button class="restart">Restart</button>
+            <button class="end">Quit</button>
+        </div>
+    </div>
+
+   <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var startButton = document.getElementById('start');
+        var infoBox = document.getElementById('info_box');
+        var endQuizButton = document.querySelector('.info_box .buttons .end');
+        var continueButton = document.querySelector('.info_box .buttons .restart');
+        var quizBox = document.querySelector('.quiz_box');
+        var questions = document.querySelectorAll('.quiz_box section');
+        var totalQuestions = questions.length;
+        var currentQuestion = 0;
+        var restartButton = document.querySelector('.results .buttons .restart');
+        var quitButton = document.querySelector('.results .buttons .end');
+        var timerElement = document.querySelector('.timer .time_sec');
+        var timerInterval;
+        var score = 0;
+    
+        function startTimer() {
+            var timeLeft = 15;
+    
+            function updateTimer() {
+                timerElement.textContent = timeLeft;
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    handleNext();
+                }
+                timeLeft--;
+            }
+    
+            updateTimer(); // initial update
+            timerInterval = setInterval(updateTimer, 1000);
+        }
+    
+        function resetTimer() {
+            clearInterval(timerInterval);
+            timerElement.textContent = 15;
+        }
+    
+        function showQuestion(questionIndex) {
+            resetTimer(); // Reset the timer for each question
+            startTimer(); // Start the timer for the current question
+    
+            questions.forEach(function (question) {
+                question.style.display = 'none';
+            });
+    
+            questions[questionIndex].style.display = 'block';
+            document.querySelector('.total_qu span p:first-child').textContent = questionIndex + 1;
+    
+            // Hide icons initially
+            var icons = questions[questionIndex].querySelectorAll('.option i');
+            icons.forEach(function (icon) {
+                icon.style.display = 'none';
+            });
+        }
+    
+        startButton.addEventListener('click', function () {
+            infoBox.classList.toggle('activeInfo');
+            startTimer(); // Start the timer when the quiz starts
+        });
+    
+        endQuizButton.addEventListener('click', function () {
+            infoBox.classList.remove('activeInfo');
+            currentQuestion = 0;
+            resetTimer(); // Reset the timer when the quiz ends
+        });
+    
+        quitButton.addEventListener('click', function () {
+            infoBox.classList.remove('activeInfo');
+            document.querySelector('.results').classList.remove('activeInfo');
+            startButton.classList.toggle('activeInfo');
+            location.reload();
+            currentQuestion = 0;
+            resetTimer(); // Reset the timer when quitting
+        });
+    
+        continueButton.addEventListener('click', function () {
+            quizBox.style.display = 'block';
+            infoBox.classList.remove('activeInfo');
+            showQuestion(currentQuestion);
+            currentQuestion = 0;
+        });
+    
+        restartButton.addEventListener('click', function () {
+            startButton.style.display = 'none';
+            location.reload();
+            quizBox.style.display = 'block';
+            infoBox.classList.remove('activeInfo');
+            document.querySelector('.results').classList.remove('activeInfo');
+            showQuestion(0);
+            currentQuestion = 0;
+        });
+    
+        document.querySelector('.quiz_box footer .next').addEventListener('click', function () {
+            handleNext();
+            resetTimer(); // Reset the timer when moving to the next question
+            startTimer();
+        });
+    
+        function handleNext() {
+            if (currentQuestion < totalQuestions - 1) {
+                currentQuestion++;
+                showQuestion(currentQuestion);
+            } else {
+                showResults();
+            }
+        }
+    
+        function showResults() {
+            quizBox.style.display = 'none';
+            document.querySelector('.results').classList.add('activeInfo');
+            document.querySelector('.results .score span p:first-child').textContent = score;
+            resetTimer(); // Reset the timer when showing results
+        }
+    
+        // Add click event listener to options for handling answer selection
+        questions.forEach(function (question, index) {
+            var options = question.querySelectorAll('.options_list .option');
+            options.forEach(function (option) {
+                option.addEventListener('click', function () {
+                    handleAnswer(option, index);
+                });
+            });
+        });
+    
+        function handleAnswer(selectedOption, questionIndex) {
+            // Disable further clicks on options
+            var options = questions[questionIndex].querySelectorAll('.options_list .option');
+            options.forEach(function (option) {
+                option.style.pointerEvents = 'none';
+            });
+    
+            // Show the corresponding icon (tick or cross)
+            var icon = selectedOption.querySelector('i');
+            icon.style.display = 'block';
+    
+            // Highlight correct and wrong choices
+            if (selectedOption.classList.contains('tick')) {
+                selectedOption.style.backgroundColor = 'lightgreen';
+                score++;
+            } else {
+                selectedOption.style.backgroundColor = 'lightcoral';
+                // Find and highlight the correct option
+                var correctOption = questions[questionIndex].querySelector('.options_list .tick');
+                correctOption.style.backgroundColor = 'lightgreen';
+                document.querySelector('options_list .tick').style.display = 'block';
+            }
+    
+        }
+    });
+    
+   </script>
+    
+</body>
+</html>
